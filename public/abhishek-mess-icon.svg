@@ -1,0 +1,25 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abhishek Mess brand icon">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D4B3D"/>
+      <stop offset="1" stop-color="#175C4A"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="72" y1="26" x2="95" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EE7B7"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#bg)"/>
+
+  <circle cx="64" cy="64" r="36" fill="#EAFBF5" fill-opacity="0.13"/>
+
+  <path d="M32 70.5C32 59.1782 40.1782 51 51.5 51H76.5C87.8218 51 96 59.1782 96 70.5V72C96 83.3218 87.8218 91.5 76.5 91.5H51.5C40.1782 91.5 32 83.3218 32 72V70.5Z" fill="#F8FFFB"/>
+  <path d="M39 68.5C39 59.3873 46.3873 52 55.5 52H72.5C81.6127 52 89 59.3873 89 68.5V72.5C89 81.6127 81.6127 89 72.5 89H55.5C46.3873 89 39 81.6127 39 72.5V68.5Z" stroke="#1F2A2E" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 70.5C49 65.5 58.5 62.5 64.5 62.5C72.5 62.5 81 66.5 87 72.5" stroke="#0F172A" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+
+  <path d="M72 32C80.4 35.2 87 41.5 90.2 49.7C83.1 51.4 76.6 51.4 70 49.1C69 42.3 70.2 36.2 72 32Z" fill="url(#leaf)"/>
+  <path d="M72 39C76.8 44 81 49.7 83.5 56.2" stroke="#F4FFF8" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M53 76.5L60.5 84L79 65.5" stroke="#0F172A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

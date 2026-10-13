@@ -6,12 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:models": "node --conditions=react-server --env-file=.env.local --import tsx --test tests/models.test.ts",
+    "test:api": "node --conditions=react-server --env-file=.env.local --import tsx --test tests/api-response.test.ts",
+    "test:auth": "node --conditions=react-server --env-file=.env.local --import tsx --test tests/auth.test.ts",
+    "test:students": "node --conditions=react-server --env-file=.env.local --import tsx --test tests/student-service.test.ts",
+    "test:meals": "node --conditions=react-server --env-file=.env.local --import tsx --test tests/meals.test.ts",
+    "test:finance": "node --conditions=react-server --env-file=.env.local --import tsx --test tests/finance.test.ts",
+    "test:portal": "node --conditions=react-server --env-file=.env.local --import tsx --test tests/portal.test.ts",
+    "admin:create": "node --conditions=react-server --env-file=.env.local --import tsx scripts/create-admin.ts",
+    "admin:reset-password": "node --conditions=react-server --env-file=.env.local --import tsx scripts/reset-admin-password.ts"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "lucide-react": "^1.55.0",
+    "mongoose": "^9.11.1",
     "next": "16.4.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
@@ -21,6 +35,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }
